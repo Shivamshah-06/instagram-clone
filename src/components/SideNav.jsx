@@ -1,6 +1,8 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/js/index.esm"
+import "bootstrap/js/index.esm";
+import "bootstrap/dist/js/bootstrap"
+import "bootstrap/"
 import HomeIcon from '@mui/icons-material/Home';
 import SearchIcon from '@mui/icons-material/Search';
 import ExploreIcon from '@mui/icons-material/Explore';
@@ -15,7 +17,7 @@ import mypic from "../images/mypic.jpg"
 const SideNav = () => {
   return (
     <div>
-      <div className="d-flex flex-column flex-shrink-0 p-3 left bg-black text-bg-dark" style={{width: "220px", height:"100vh"}}>
+      <div className="d-flex flex-column flex-shrink-0 p-3 left bg-black text-bg-dark position-fixed" style={{width: "220px", height:"100vh", borderLeft:"grey"}}>
     <a href="/" className="d-flex align-items-center mb-1 mb-md-0 me-md-auto text-white text-decoration-none">
       <img src={insta} alt="" style={{height:"80px", width:"150px"}} />
     </a>
