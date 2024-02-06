@@ -74,12 +74,12 @@ const SideNav = () => {
       <br />
       <li className="nav-item">
         <a href="#" className="nav-link text-white " aria-current="page">
-        <img src={threads} alt="" style={{width:"32px", borderRadius:"10px", marginLeft:"0px",marginTop: "auto"}}/>
+        <img src={threads} alt="" style={{width:"32px", borderRadius:"10px", marginLeft:"0px"}}/>
         Threads
         </a>
       </li>
       <li className="nav-item">
-        <div className="dropdown " style={{marginTop: "auto"}}>
+        <div className="dropdown">
         <a href="#" className="d-flex align-items-center text-white text-decoration-none dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="false">
         
         <strong><DensityMediumIcon style={{marginLeft:"20px", marginRight:"6px"}}/>More</strong>
